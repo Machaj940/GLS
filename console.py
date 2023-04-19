@@ -17,7 +17,7 @@ class GLSCommand(cmd.Cmd):
         """Exits from the console"""
         return True
 
-    def do_EOF(self, line):
+    def do_EOF(self, args):
         """Gives a clean way to exit interpretor"""
         return True
 
