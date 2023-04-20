@@ -11,4 +11,5 @@ class Client(BaseModel):
     Business_name = ""
     email = ""
     password = ""
+    phone_number = ""
     location = ""
