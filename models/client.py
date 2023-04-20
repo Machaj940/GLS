@@ -12,5 +12,6 @@ class Client(BaseModel):
     email = ""
     password = ""
     phone_number = ""
+    county = ""
     sub_county= ""
     area_and_street = ""
