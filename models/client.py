@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Class client represents the clients that subscribe to GLS"""
+"""Class Client represents the clients that subscribe to GLS"""
 
 
 from models.base_model import BaseModel
 
 
 class Client(BaseModel):
-    """the User class"""
+    """the Client class"""
     full_name = ""
     business_name = ""
     email = ""
